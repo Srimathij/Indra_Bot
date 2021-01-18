@@ -1,0 +1,82 @@
+{
+  "responseId": "dd4086b7-60b0-4980-b3f5-8a5969c25eba-ce5e18e2",
+  "queryResult": {
+    "queryText": "general measures",
+    "parameters": {
+      "recommendedmeasures": "general measures"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [
+      {
+        "payload": {
+          "richContent": [
+            [
+              {
+                "type": "image",
+                "rawUrl": "https://www.ayush.gov.in/img/m2.jpeg",
+                "accessibilityText": "Example logo"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "payload": {
+          "richContent": [
+            [
+              {
+                "options": [
+                  {
+                    "text": "‣Drink Warm water "
+                  },
+                  {
+                    "text": "‣Yoga Asanas"
+                  },
+                  {
+                    "text": "‣Spices"
+                  }
+                ],
+                "type": "chips"
+              }
+            ]
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/mitra-mtat/locations/global/agent/sessions/f9fa4778-5f68-1fbe-c53b-5afcb3e81086/contexts/generalmeasures-followup",
+        "lifespanCount": 2,
+        "parameters": {
+          "recommendedmeasures": "general measures",
+          "recommendedmeasures.original": "general measures"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/mitra-mtat/agent/intents/a74c15d9-a780-4009-abe6-58c358dd5366",
+      "displayName": "General Measures"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "outputAudio": "UklGRiQAAABXQVZFZm10IBAAAAABAAEA//////7///8CABAAZGF0YQAAAAA=",
+  "alternativeQueryResults": [
+    {
+      "queryText": "general measures",
+      "languageCode": "en"
+    }
+  ],
+  "outputAudioConfig": {
+    "audioEncoding": "OUTPUT_AUDIO_ENCODING_LINEAR_16",
+    "synthesizeSpeechConfig": {
+      "speakingRate": 1,
+      "voice": {}
+    }
+  },
+  "agentId": "d3110a5e-452e-4de7-8a36-3c5502d9e68c",
+  "agentSettings": {
+    "enableAgentWideTts": true,
+    "enableAgentWideKnowledgeConnector": true
+  }
+}
