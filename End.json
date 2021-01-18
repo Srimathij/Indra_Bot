@@ -1,0 +1,67 @@
+{
+  "responseId": "12add27f-db0f-4821-b67e-47756ed891b0-ce5e18e2",
+  "queryResult": {
+    "queryText": "bye",
+    "parameters": {
+      "end": "bye"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "It's my pleasure to help You!",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "It's my pleasure to help You!"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/mitra-mtat/locations/global/agent/sessions/f9fa4778-5f68-1fbe-c53b-5afcb3e81086/contexts/generalmeasures-followup",
+        "lifespanCount": 1,
+        "parameters": {
+          "end": "bye",
+          "end.original": "bye",
+          "recommendedmeasures": "general measures",
+          "recommendedmeasures.original": "general measures"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/mitra-mtat/agent/intents/6e11b1ed-325e-4453-8d73-cbfb2526ec79",
+      "displayName": "Thanks"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "outputAudio": "UklGRjhYAQBXQVZFZm10IBAAAAABAAEAwF0AAIC7AAACABAAZGF0YRRYAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA... (The content is truncated. Click `COPY` for the original JSON.)",
+  "alternativeQueryResults": [
+    {
+      "queryText": "bye",
+      "outputContexts": [
+        {
+          "name": "projects/mitra-mtat/locations/global/agent/sessions/f9fa4778-5f68-1fbe-c53b-5afcb3e81086/contexts/generalmeasures-followup",
+          "lifespanCount": 1,
+          "parameters": {
+            "recommendedmeasures": "general measures",
+            "recommendedmeasures.original": "general measures"
+          }
+        }
+      ],
+      "languageCode": "en"
+    }
+  ],
+  "outputAudioConfig": {
+    "audioEncoding": "OUTPUT_AUDIO_ENCODING_LINEAR_16",
+    "synthesizeSpeechConfig": {
+      "speakingRate": 1,
+      "voice": {}
+    }
+  },
+  "agentId": "d3110a5e-452e-4de7-8a36-3c5502d9e68c",
+  "agentSettings": {
+    "enableAgentWideTts": true,
+    "enableAgentWideKnowledgeConnector": true
+  }
+}
