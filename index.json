@@ -1,0 +1,75 @@
+{
+  "responseId": "1d4d89f5-5b2e-4fd6-ae39-f1c508ddfac2-ce5e18e2",
+  "queryResult": {
+    "queryText": "hi",
+    "action": "input.welcome",
+    "parameters": {
+      "given-name": ""
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Hey There ! I am Indra Your Virtual Assistant designed to help you!!😊You can share your feelings with me:) You can think me as Your Friend!!",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Hey There ! I am Indra Your Virtual Assistant designed to help you!!😊You can share your feelings with me:) You can think me as Your Friend!!"
+          ]
+        }
+      },
+      {
+        "payload": {
+          "richContent": [
+            [
+              {
+                "accessibilityText": "Example logo",
+                "type": "image",
+                "rawUrl": "https://www.kurumba.com/uploads/experiences/majaa/sunrise-yoga.jpg"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "payload": {
+          "richContent": [
+            [
+              {
+                "options": [
+                  {
+                    "text": "Recommended Measures"
+                  }
+                ],
+                "type": "chips"
+              }
+            ]
+          ]
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/mitra-mtat/agent/intents/0fe943db-0ce3-4dca-84ae-0c9686a72a4d",
+      "displayName": "Default Welcome Intent"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "outputAudio": "UklGRrqjBgBXQVZFZm10IBAAAAABAAEAwF0AAIC7AAACABAAZGF0YZajBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA... (The content is truncated. Click `COPY` for the original JSON.)",
+  "alternativeQueryResults": [
+    {
+      "queryText": "hi",
+      "languageCode": "en"
+    }
+  ],
+  "outputAudioConfig": {
+    "audioEncoding": "OUTPUT_AUDIO_ENCODING_LINEAR_16",
+    "synthesizeSpeechConfig": {
+      "speakingRate": 1,
+      "voice": {}
+    }
+  },
+  "agentId": "d3110a5e-452e-4de7-8a36-3c5502d9e68c",
+  "agentSettings": {
+    "enableAgentWideTts": true,
+    "enableAgentWideKnowledgeConnector": true
+  }
+}
