@@ -11,6 +11,26 @@ My project is mainly focusing on health-related problems.Chatbots in healthcare 
 # USP:
 Indra will assista human by asking  questions related to Ayurvedic immunity promoting measures.I've given multiple response with attractive images and informative screen shots!
 
+# Custom Payload:
+Additionaly I've added this custom payload for getting multiple response.
+{
+  "richContent": [
+    [
+      {
+        "type": "chips",
+        "options": [
+          {
+            "text": "⁌Dietary measures"
+          },
+          {
+            "text": "⁌General and Physical measures"
+          }
+        ]
+      }
+    ]
+  ]
+}
+
           
 
 Try my project by using the below link!
