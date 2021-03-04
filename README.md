@@ -13,23 +13,8 @@ Indra will assista human by asking  questions related to Ayurvedic immunity prom
 
 # Custom Payload:
 Additionaly I've added this custom payload for getting multiple response.
-{
-  "richContent": [
-    [
-      {
-        "type": "chips",
-        "options": [
-          {
-            "text": "⁌Dietary measures"
-          },
-          {
-            "text": "⁌General and Physical measures"
-          }
-        ]
-      }
-    ]
-  ]
-}
+![image](https://user-images.githubusercontent.com/46951797/109904495-5ca95400-7cc3-11eb-80b7-1944850893d8.png)
+
 
           
 
