@@ -15,9 +15,15 @@ Indra will assista human by asking  questions related to Ayurvedic immunity prom
 Additionaly I've added this custom payload for getting multiple response.
 ![image](https://user-images.githubusercontent.com/46951797/109904495-5ca95400-7cc3-11eb-80b7-1944850893d8.png)
 
+# Training phrases:
+![image](https://user-images.githubusercontent.com/46951797/109904767-ba3da080-7cc3-11eb-8906-c62ff94fb47b.png)
+
+
 
           
 
 Try my project by using the below link!
 
 https://indrachatbot.netlify.app/
+
+HAPPY AUTOMATION:)
