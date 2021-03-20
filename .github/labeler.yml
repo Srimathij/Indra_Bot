@@ -6,3 +6,14 @@ ci/cd:
   - "**/*.yml"
   - "*.yml"
   
+html:
+  - "**/*.html"
+  - "*.html"
+  
+css:
+  - "**/*.css"
+  - "*.css"
+  
+JSON:
+  - "**/*.json"
+  - "*.json"
