@@ -37,6 +37,12 @@
                 "options": [
                   {
                     "text": "Recommended Measures"
+                  },
+                  {
+                     "text": "Coronavirus Precautions"
+                  },
+                  {
+                     "text": "Improve Mental Health"
                   }
                 ],
                 "type": "chips"
