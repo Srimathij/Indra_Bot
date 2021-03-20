@@ -1,0 +1,8 @@
+markdown:
+  - "**/*.md"
+  - "*.md"
+  
+ci/cd:
+  - "**/*.yml"
+  - "*.yml"
+  
