@@ -6,12 +6,12 @@
       "end": "bye"
     },
     "allRequiredParamsPresent": true,
-    "fulfillmentText": "It's my pleasure to help You!",
+    "fulfillmentText": "Hope I was able to help you!",
     "fulfillmentMessages": [
       {
         "text": {
           "text": [
-            "It's my pleasure to help You!"
+            "Hope I was able to help you!"
           ]
         }
       }
