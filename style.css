@@ -8,42 +8,7 @@
 	background-size: cover;
 	height: 100vh;
 }
-.navbar{
-	position: fixed;
-	height: 80px;
-	width: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(0,0,0,0.4);
-}
-.navbar .logo{
-	width: 140px;
-	height: auto;
-	padding: 20px 100px;
-}
-.navbar ul{
-	float: right;
-	margin-right: 20px;
-}
-.navbar ul li{
-	list-style: none;
-	margin: 0 8px;
-	display: inline-block;
-	line-height: 80px;
-}
-.navbar ul li a{
-	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
-	color: white;
-	padding: 6px 13px;
-	text-decoration: none;
-	transition: .4s;
-}
-.navbar ul li a.active,
-.navbar ul li a:hover{
-	background: red;
-	border-radius: 2px;
-}
+
 .wrapper .center{
 	position: absolute;
 	left: 50%;
@@ -89,3 +54,171 @@
 .buttons button:hover{
 	background: #cc0000;
 }
+
+@media screen and (max-width: 281px) and (min-width: 280px) {
+
+	.wrapper{
+		height: 100vh;
+	}
+
+	.center h1{
+		color: white;
+		font-size: 20px;
+		width: 270px;
+	}
+  }
+
+
+@media screen and (max-width: 321px) and (min-width: 320px) {
+
+	.wrapper{
+		height: 100vh;
+	}
+
+	.center h1{
+		color: white;
+		font-size: 40px;
+		width: 300px;
+	}
+  }
+@media screen and (max-width: 361px) and (min-width: 360px) {
+
+	.wrapper{
+		height: 100vh;
+		background-size: auto;
+	}
+
+	.navbar .logo{
+		width: 2%;
+		height: auto;
+		padding: 20px 20px;
+	}
+
+
+	.center h1{
+		color: white;
+		font-size: 40px;
+		width: 300px;
+	}
+  }
+
+  @media screen and (max-width: 376px) and (min-width: 375px) {
+
+	.wrapper{
+		height: 100vh;
+	}
+
+	.navbar{
+		position: fixed;
+		height: 50px;
+		width: 100%;
+	}
+
+	.navbar ul li{
+		line-height: 30px;
+	}
+
+	.navbar ul li a{
+		font-size: 10px;
+	}
+
+	.center h1{
+		color: white;
+		font-size: 40px;
+		width: 300px;
+	}
+  }
+  @media screen and (max-width: 412px) and (min-width: 411px) {
+
+	.wrapper{
+		height: 100vh;
+	}
+
+	.center h1{
+		color: white;
+		font-size: 40px;
+		width: 300px;
+	}
+  }
+
+  @media screen and (max-width: 414px) and (min-width: 413px) {
+
+	.wrapper{
+		height: 100vh;
+	}
+
+	.center h1{
+		color: white;
+		font-size: 40px;
+		width: 300px;
+	}
+  }
+
+  @media screen and (max-width: 541px) and (min-width: 540px) {
+
+	.wrapper{
+		height: 100vh;
+	}
+
+	.center h1{
+		color: white;
+		font-size: 40px;
+		width: 300px;
+	}
+  }
+
+  @media screen and (max-width: 769px) and (min-width: 768px) {
+
+	.wrapper{
+		height: 100vh;
+	}
+
+	.center h1{
+		color: white;
+		font-size: 40px;
+		width: 300px;
+	}
+  }
+
+  .topnav {
+	overflow: hidden;
+	background-color: rgb(24, 19, 29);
+	/* background-color: transparent; */
+	position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+	display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+	color: white;
+	padding: 16px 16px;
+	text-align: right;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+	background: rgb(24, 19, 29);
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+	background-color: #333;
+	color: white;
+  }
