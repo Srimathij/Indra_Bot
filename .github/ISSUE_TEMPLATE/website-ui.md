@@ -2,7 +2,7 @@
 name: Website/UI
 about: Issue regarding website (UI/Web related)
 title: "[WEB]"
-labels: 'Status: Awaiting :vertical_traffic_light:, bug, gssoc21'
+labels: 'Status: Awaiting :vertical_traffic_light:, bug'
 assignees: ''
 
 ---
