@@ -1,0 +1,5 @@
+# CODEOWNERS need to be updated as time progresses
+*     @Srimathij, @alphaX86
+
+*.yml     @alphaX86
+*.md      @alphaX86
