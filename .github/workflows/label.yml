@@ -5,11 +5,11 @@
 # file with configuration.  For more information, see:
 # https://github.com/actions/labeler
 
-name: Labeler
+name: 
 on: [pull_request]
 
 jobs:
-  label:
+  label:level0
 
     runs-on: ubuntu-latest
 
