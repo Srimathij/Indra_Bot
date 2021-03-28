@@ -29,8 +29,9 @@
   </style>
 	<div class="wrapper">
 		<!-- Top Navigation Menu -->
+		<img src="logo.jpg" >
 		<div class="topnav">
-		  <img src="logo.jpg" style="width: 8%; padding: 15px;padding-left: 3rem;">
+		  
 		  <!-- Navigation links (hidden by default) -->
 		  <div id="myLinks">
 			<a href="index.html">Home</a>
@@ -52,8 +53,12 @@
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
+	document.getElementsByClassName("topnav")[0].style.height="60px";
+
   } else {
     x.style.display = "block";
+	
+	document.getElementsByClassName("topnav")[0].style.height="164px";
   }
 }
 </script>
