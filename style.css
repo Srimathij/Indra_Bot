@@ -61,6 +61,7 @@ body{
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
 	height: 100%;
+	margin-top:-3px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -84,16 +85,19 @@ body{
 	z-index: 9;
     width: 6rem;
     height: 4rem;
-	position: absolute;
+	/* position: absolute; */
   }
   .topnav {
 	height:60px;
 	opacity: 0.8;
+	transition: 1s ease-in-out;
   }
-  
   .topnav #myLinks {
 	height: 89px;
     margin-top: 52px;
+  }
+  #logo{
+	  position: absolute;
   }
 @media screen and (max-width: 281px) and (min-width: 280px) {
 
@@ -144,7 +148,7 @@ body{
   }
 
   .row {
-	display: inline-flex;
+	display: inline-flex
   }
   .column {
 	flex: 100%;
