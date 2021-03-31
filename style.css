@@ -148,7 +148,7 @@ body{
   }
 
   .row {
-	display: inline-flex
+	display: inline-flex;
   }
   .column {
 	flex: 100%;
