@@ -3,23 +3,24 @@
 	padding: 0;
 	margin: 0;
 }
+body{
+	overflow: hidden;
+}
 .wrapper{
 	background: url(img.1.png) no-repeat;
-	background-size: cover;
+	background-size: 100vw 100vh;
 	height: 100vh;
 }
 
 .wrapper .center{
-	position: absolute;
-	left: 50%;
-	top: 55%;
-	transform: translate(-50%, -50%);
-	font-family: sans-serif;
-	user-select: none;
+	height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .center h1{
 	color: white;
-	font-size: 70px;
+	font-size: 5vw;
 	width: 900px;
 	font-weight: bold;
 	text-align: center;
@@ -35,6 +36,7 @@
 .center .buttons{
 	margin: 35px 280px;
 }
+
 .buttons button{
 	height: 50px;
 	width: 150px;
@@ -59,6 +61,7 @@
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
 	height: 100%;
+	margin-top:-3px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -77,6 +80,24 @@
 	width: 80%;
 	padding: 15px;
 	text-align: center;
+  }
+  img{
+	z-index: 9;
+    width: 6rem;
+    height: 4rem;
+	/* position: absolute; */
+  }
+  .topnav {
+	height:60px;
+	opacity: 0.8;
+	transition: 1s ease-in-out;
+  }
+  .topnav #myLinks {
+	height: 89px;
+    margin-top: 52px;
+  }
+  #logo{
+	  position: absolute;
   }
 @media screen and (max-width: 281px) and (min-width: 280px) {
 
@@ -104,6 +125,7 @@
 		width: 300px;
 	}
   }
+  
 @media screen and (max-width: 361px) and (min-width: 360px) {
 
 	.wrapper{
@@ -225,11 +247,14 @@
 	background-color: rgb(24, 19, 29);
 	/* background-color: transparent; */
 	position: relative;
+	height:60px;
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
 	display: none;
+	height: 89px;
+    margin-top: 52px;
   }
   
   /* Style navigation menu links */
@@ -244,7 +269,7 @@
   
   /* Style the hamburger menu */
   .topnav a.icon {
-	background: rgb(24, 19, 29);
+	background: rgb(90 88 91);
 	display: block;
 	position: absolute;
 	right: 0;
