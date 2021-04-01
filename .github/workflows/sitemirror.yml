@@ -17,4 +17,12 @@ jobs:
       uses: actions/checkout@master
       with: 
         repository: alphaX86/Indra_Site
+        
+    - name: Commit changes
+      run: |
+        git add .
+        git commit -m "Pushing changes"
+        git push -u origin main
+        
+    
       
