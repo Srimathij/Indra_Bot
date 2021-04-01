@@ -13,12 +13,8 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
     - name: Setup remote
-      run: |
-        git remote add vercel https://github.com/alphaX86/Indra_Site.git
-    
-    - name: Push changes
-      run: |
-        git checkout main
-        git push -u vercel main
+      uses: actions/checkout@master
+      with: 
+        repository: alphaX86/Indra_Site
+      
