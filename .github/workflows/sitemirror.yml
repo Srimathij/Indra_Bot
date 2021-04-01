@@ -1,0 +1,22 @@
+# This action is to push the changes from this repo to mine's (alphaX86) such that the website is updated
+
+name: Site Mirror
+
+on:
+  push:
+    branches: [ master ]
+    
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup remote
+      run: |
+        git remote add vercel https://github.com/alphaX86/Indra_Site.git
+    
+    - name: Push changes
+      run: |
+        git checkout main
+        git push -u vercel main
