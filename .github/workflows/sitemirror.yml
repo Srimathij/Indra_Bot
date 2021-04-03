@@ -23,14 +23,11 @@ jobs:
       run: |
         git config user.name "Aadhitya A"
         git config user.email "aadhitya864@gmail.com"
-        git remote add upstream https://github.com/alphaX86/Indra_Site
         
     - name: Push and update changes
       run: |
-        git push -u upstream main
+        git checkout main
+        git push -u origin main
         
-    - name: Clean up
-      run: |
-        git remote remove upstream
     
       
