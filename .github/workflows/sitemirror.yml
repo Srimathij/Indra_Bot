@@ -13,17 +13,19 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-    - name: Setup remote
-      uses: actions/checkout@master
-      with: 
-        repository: alphaX86/Indra_Site
         
-    - name: Commit changes
+    - name: Setup remote
       run: |
         git config user.name "Aadhitya A"
         git config user.email "aadhitya864@gmail.com"
         git remote add upstream https://github.com/alphaX86/Indra_Site
+        
+    - name: Push and update changes
+      run: |
         git push -u upstream main
         
+    - name: Clean up
+      run: |
+        git remote remove upstream
     
       
