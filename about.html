@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      *{ margin:0; padding:0; }
+        .project {
+          position: absolute;
+          bottom: 0;
+          right: 10px;
+          font-size: 40px;
+        }
+      </style>
+</head>
+
+<body>
+    <div class="wrapper">
+		<!-- Top Navigation Menu -->
+		<img id="logo" src="logo.jpg" >
+		<div class="topnav">
+		  
+		  <!-- Navigation links (hidden by default) -->
+		  <div id="myLinks">
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+		  </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+
+        <div class="bg-image"></div>
+
+        <div class="bg-text">
+            <h1>About</h1>
+            <p>This project is mainly focusing on health-related problems. Chatbots in healthcare would be useful during
+                this COVID-19 pandemic, the most domain NLP Platform which is used was Dialog flow and Front end for
+                integration. AI-powered chatbots can be used to trigger patients and guide them to receive the
+                appropriate help. Chatbots are considered a more reliable and accurate alternative to online searches
+                patients carry out when they’re trying to understand the cause of their symptoms. It can understand user
+                queries.</p>
+                
+                    <div class="container">
+                      <div class="section-header">
+                        <h2>Mentors</h2>
+                        <p>Our Mentor team include experienced tech experts</p>
+                      </div>
+              
+                      <div class="row">
+              
+              
+                        <div class="column">
+                            <img src="https://avatars.githubusercontent.com/u/46951797?v=4" width="100" 
+                            height="100" alt="Srimathi Jagadeesan_Dev">
+                            
+                                <h4>Srimathij</h4>
+                                <div class="social">
+                                  <a href="https://www.linkedin.com/in/srimathi-jagadeesan-3420561a7/"target="_blank"><i class="fa fa-linkedin"></i></a>
+                                  <a href="https://github.com/Srimathij"target="_blank"><i class="fa fa-github"></i></a>
+                                </div>
+                              </div>
+                           
+                        <div class="column">
+                            
+                              <img src="https://avatars.githubusercontent.com/u/59508546?v=4" width="100" 
+                              height="100" alt="Aadhitya A">
+                              
+                                  <h4>Aadhitya A</h4>
+                                  <div class="social">
+                                    <a href="https://www.linkedin.com/in/alphaX86"target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/alphaX86"target="_blank"><i class="fa fa-github"></i></a>
+                                  </div>
+                                </div>
+
+                   
+                                    <div class="project">
+                                          <a href="https://github.com/Srimathij/Indra_Bot"target="_blank">
+                                            <i class="fa fa-github"></i></a>
+                                        </div>
+                                      
+                              
+        </div>
+       
+    </div>
+</body>
+
+<script>
+    	function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+	document.getElementsByClassName("topnav")[0].style.height="60px";
+
+  } else {
+    x.style.display = "block";
+	
+	document.getElementsByClassName("topnav")[0].style.height="164px";
+  }
+}
+</script>
+
+</html>
