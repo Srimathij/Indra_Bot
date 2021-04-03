@@ -22,7 +22,8 @@ jobs:
       run: |
         git config user.name "Aadhitya A"
         git config user.email "aadhitya864@gmail.com"
-        git push -u origin main
+        git remote add upstream https://github.com/alphaX86/Indra_Site
+        git push -u upstream main
         
     
       
