@@ -20,8 +20,8 @@ jobs:
         
     - name: Commit changes
       run: |
-        git add .
-        git commit -m "Pushing changes"
+        git config user.name "Aadhitya A"
+        git config user.email "aadhitya864@gmail.com"
         git push -u origin main
         
     
