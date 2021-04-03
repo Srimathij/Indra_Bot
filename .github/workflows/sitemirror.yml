@@ -14,6 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         
+    - name: Checkout repo
+      uses: actions/checkout@v2
+      with:
+        repository: alphaX86/Indra_Site
+        
     - name: Setup remote
       run: |
         git config user.name "Aadhitya A"
