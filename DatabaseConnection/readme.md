@@ -12,27 +12,27 @@ A Demo of all the 3 features is Given Below.
 
 ## Steps for use 
 
-1. go to [Firebase Console]("https://console.firebase.google.com/u/0/")
+1. Go to [Firebase Console]("https://console.firebase.google.com/u/0/")
 
-2. then go and create a new Project 
+2. Then go and create a new Project 
 
 3. Then, while creating a new project you would be getting a Conf file this is your firebase Configuration file 
 
-4. just copy-paste this file in CredentialHelper class and copy-paste your credentials in firebaseConfig
+4. Just copy-paste this file in CredentialHelper class and copy-paste your credentials in firebaseConfig
 
-5. next go to Dialogue Flow
+5. Next go to Dialogue Flow
 
-6. then go to your agent 
+6. Then go to your agent 
 
-7. under agent go to fulfillment 
+7. Under agent go to fulfillment 
 
-8. under that got to WebHooks 
+8. Under that got to WebHooks 
 
 9. Run the agentMain.py file in you python environment 
 
-10. here a link will be generated(an HTTPS URL)
+10. Here a link will be generated(an HTTPS URL)
 
-11. just copy-paste the link in webhooks 
+11. Just copy-paste the link in webhooks 
 
 12. Done connection stabilised
 
