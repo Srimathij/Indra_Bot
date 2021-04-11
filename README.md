@@ -33,9 +33,8 @@ Additionally I've added this custom payload for getting multiple responses.
 
 Try my project by using the below link!
 
-https://indrachatbot.netlify.app/ (Site down)
+https://indrachatbot.netlify.app/ (Site down, try to do in local for changes)
 
-https://indra-site.vercel.app/ (Temp site mirror, use this!)
 
 # CONTRIBUTORS
 ### Credit goes to these people:✨
