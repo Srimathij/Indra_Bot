@@ -324,7 +324,7 @@ form
 }
 .form-control
 {
-  width: 600px;
+  width: 95%;
   background: transparent;
   border: none;
   outline: none;
@@ -341,20 +341,36 @@ input
 
 form .submit
 {
-    background: #45a049;/* #ff5722;*/
+    /* background: #45a049;#ff5722; */
     border-color: transparent;
     color:#fff;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: bold;
     letter-spacing: 2px;
-    height: 50px;
+    /* height: 50px; */
     margin-top: 20px;
-
+	background: #1a1c67;
+    font-size: 84%;
+	height: 69px;
 }
 
 form .submit:hover
 {
-    background-color:#4CAF50;/* #f44336;*/
+    background-color:#170d79;/* #f44336;*/
     cursor: pointer;
 }
-
+#contact-form{
+	background: #040735;
+    opacity: 0.9;
+    height: 59vh;
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px 4px 6px #090b52;
+}
+.contact-form{
+	display: flex;
+    justify-content: center;
+}
