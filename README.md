@@ -49,7 +49,7 @@ https://indrachatbot.netlify.app/ (Site down, try to do in local for changes)
 
 ## Project Admin👨‍🏫
 
-|<img src="https://avatars.githubusercontent.com/u/46951797?v=4">|<img src="https://avatars.githubusercontent.com/u/59508546?v=4">
+|<img src="https://avatars.githubusercontent.com/u/46951797?v=4" width ="40%">|<img src="https://avatars.githubusercontent.com/u/59508546?v=4" width ="40%">
 |--------------|-----------|
 |<p align="center">[Srimathi Jagadeesan_Dev](https://github.com/Srimathij)</p>|<p align="center">[Aadhitya A](https://github.com/alphaX86)</p>
 
@@ -60,12 +60,12 @@ https://indrachatbot.netlify.app/ (Site down, try to do in local for changes)
 	<tr>
 		<td>
 			<a href="https://github.com/Srimathij/Indra_Bot/graphs/contributors">
- 		 <img src="https://contrib.rocks/image?Srimathij/
-Indra_Bot=Srimathij/Indra_Bot" />
-			</a>
+  <img src="https://contrib.rocks/image?repo=Srimathij/Indra_Bot" />
+</a>
 		</td>
 	</tr>
 </table>
+
 
 <div align='center'>
 
